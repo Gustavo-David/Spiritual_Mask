@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+    color: white;
+    flex-direction: column;
+    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main{
+    padding: 20px 0px;
+    width: 30vw;
+    height: 70vh;
+    background: #0C1122;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #00CCFF;
+    border-radius: 5px;
+}
+.LoginImage{
+
+    display: flex;
+    width: 10vw;
+}
+
+.LoginImage > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px #00CCFF;
+}
+
+.TextField{
+
+}
+.CheckboxAndForgetPassword{
+
+}
+
+.Checkbox{
+
+}
+
+.ForgetPassword{
+
+}
+
+.ButtonLogin{
+
+}
