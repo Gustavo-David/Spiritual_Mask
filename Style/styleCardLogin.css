@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/pacman.css');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Pixelify Sans', sans-serif;
     color: white;
     flex-direction: column;
-    
+
 }
 
 body {
@@ -19,7 +20,7 @@ body {
     align-items: center;
 }
 
-.Main{
+.Main {
     padding: 20px 0px;
     width: 30vw;
     height: 70vh;
@@ -30,34 +31,94 @@ body {
     border: 2px solid #00CCFF;
     border-radius: 5px;
 }
-.LoginImage{
+
+.LoginImage {
 
     display: flex;
     width: 10vw;
 }
 
-.LoginImage > h1{
+.LoginImage>h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-shadow: 2px 2px #00CCFF;
+    margin-top: 20px;
+    ;
 }
 
-.TextField{
-
-}
-.CheckboxAndForgetPassword{
-
-}
-
-.Checkbox{
-
+.TextField {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
 }
 
-.ForgetPassword{
+.TextLogin {
+    padding: 5px;
+    margin: 2px 2px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+
 
 }
 
-.ButtonLogin{
+.TextLogin>input {
+    padding: 3px;
+    width: 100%;
+    border-radius: 3px;
+    border: 3px solid #00CCFF;
+    align-items: flex-start;
+    display: flex;
+    background-color: #0f1425;
 
+}
+
+.TextLogin>input::placeholder {
+    color: white;
+}
+
+
+.PasswordLogin {
+    padding: 5px;
+    margin: 2px 2px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.PasswordLogin>input {
+    padding: 3px;
+    width: 100%;
+    border-radius: 3px;
+    border: 3px solid #00CCFF;
+    align-items: flex-start;
+    display: flex;
+    background-color: #0f1425;
+}
+
+.PasswordLogin>input::placeholder {
+    color: white;
+}
+
+
+
+.CheckboxAndForgetPassword {
+    align-items: center;
+}
+
+.Checkbox {
+    align-items: center;
+}
+
+.ForgetPassword {
+    align-items: center;
+}
+
+.ButtonLogin {
+    align-items: center;
 }
