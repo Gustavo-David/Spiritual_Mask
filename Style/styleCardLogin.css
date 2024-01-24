@@ -8,7 +8,8 @@
     font-family: 'Pixelify Sans', sans-serif;
     color: white;
     flex-direction: column;
-
+    outline: none;
+    
 }
 
 body {
@@ -18,13 +19,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background:linear-gradient(#0C1122,#00497a,#0C1122);
 }
 
 .Main {
-    padding: 20px 0px;
+    padding: 20px 20px;
     width: 30vw;
     height: 70vh;
-    background: #0C1122;
+    background:transparent;
+    backdrop-filter: blur(20px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,15 +47,16 @@ body {
     align-items: center;
     text-shadow: 2px 2px #00CCFF;
     margin-top: 20px;
-    ;
 }
 
 .TextField {
+    font-size: 1.5vw;;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     color: white;
+    
 }
 
 .TextLogin {
@@ -62,7 +66,7 @@ body {
     align-items: center;
     display: flex;
     text-align: center;
-
+font-size: 1.5vw;;
 
 }
 
@@ -79,6 +83,7 @@ body {
 
 .TextLogin>input::placeholder {
     color: white;
+    font-size: 1vw;;
 }
 
 
@@ -103,8 +108,8 @@ body {
 
 .PasswordLogin>input::placeholder {
     color: white;
+    font-size: 1vw;;
 }
-
 
 
 .CheckboxAndForgetPassword {
@@ -120,14 +125,15 @@ body {
     justify-content: flex-start;
     align-items: center;
     display: flex;
-    margin:10px;
+    margin: 10px;
 }
+
 .Checkbox input {
     display: none;
 
 }
 
-.Checkbox input + label:before{
+.Checkbox input+label:before {
     content: "";
     display: inline-block;
     width: 15px;
@@ -139,30 +145,45 @@ body {
     cursor: pointer;
 }
 
-.Checkbox input:checked + label:before{
+.Checkbox input:checked+label:before {
     background-color: #00CCFF;
     color: white;
     content: '\2713';
     font-size: 20px;
     line-height: 16px;
-    
+
 }
-
-
-
-
-
-
-
-
 
 .ForgetPassword {
     justify-content: flex-start;
     align-items: center;
     display: flex;
-    margin:10px;
+    margin: 10px;
 }
 
 .ButtonLogin {
+    padding: 10px 10px;
+    width: 15vw;
+    height: 5vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     align-items: center;
+    background: transparent;
+    border: 2px solid#00CCFF;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    font-size: 1.5vw;;
+}
+.ButtonLogin:hover{
+    box-shadow: 0px 0px 5px 2px #00CCFF;
+    color: white;
+}
+
+@midia only screen and (max-width:2301.33px){
+
+}
+
+@midia only screen and (max-width:916px){
+
 }
