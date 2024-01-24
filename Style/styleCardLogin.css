@@ -29,7 +29,7 @@ body {
     justify-content: space-between;
     align-items: center;
     border: 2px solid #00CCFF;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .LoginImage {
@@ -108,15 +108,59 @@ body {
 
 
 .CheckboxAndForgetPassword {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
+    font-size: 12px;
+    cursor: pointer;
 }
 
 .Checkbox {
+    justify-content: flex-start;
     align-items: center;
+    display: flex;
+    margin:10px;
+}
+.Checkbox input {
+    display: none;
+
 }
 
+.Checkbox input + label:before{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #00CCFF;
+    border-radius: 3px;
+    margin-right: 5px;
+    vertical-align: middle; /* centraliza a caixa do checkbox*/
+    cursor: pointer;
+}
+
+.Checkbox input:checked + label:before{
+    background-color: #00CCFF;
+    color: white;
+    content: '\2713';
+    font-size: 20px;
+    line-height: 16px;
+    
+}
+
+
+
+
+
+
+
+
+
 .ForgetPassword {
+    justify-content: flex-start;
     align-items: center;
+    display: flex;
+    margin:10px;
 }
 
 .ButtonLogin {
