@@ -20,6 +20,7 @@ body {
 }
 
 .Header {
+
     position: relative;
     display: flex;
     background-color: green;
@@ -32,7 +33,6 @@ body {
 }
 
 .ImgHeader {
-
     display: inline-block;
     width: 100vw;
     height: auto;
@@ -40,23 +40,100 @@ body {
 }
 
 .Title {
+
+    width: 90vw;
+    height: auto;
     flex-direction: column;
     position: absolute;
     justify-content: center;
     align-items: center;
-
-    display: flex;
 }
 
-.Title>img {
+.TitleNavigation {
+    margin-top: 0;
+    margin: 0 10vw 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+.ButtonTitleNavigation {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 40vw;
+}
+
+.ButtonTitleNavigation>button {
+    padding: 1.5vh;
+    margin: 1px 2px 1px 2px;
+    width: 7vw;
+    height: 4vh;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid#00CCFF;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    font-size: 0.8vw;
+    border-radius: 3px;
+
+}
+
+#Login {
+    padding: 1.5vh;
+    margin: 1px 2px 1px 2px;
+    width: 7vw;
+    height: 4vh;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid#00CCFF;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    font-size: 0.8vw;
+    border-radius: 3px;
+    color: white;
+}
+
+
+.ButtonTitleNavigation>button:hover {
+    box-shadow: 0px 0px 5px 2px #00CCFF;
+    color: #00CCFF;
+}
+
+#Login:hover {
+    box-shadow: 0px 0px 5px 2px #00CCFF;
+    color: #00CCFF;
+}
+
+.TitleLogo {
+    margin: 3vw 25vw 0 25vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.TitleLogo>img {
     width: 12vw;
 }
 
-.Title>h1 {
+.TitleLogo>h1 {
     font-size: 4.5vw;
-    text-shadow: 2px 2px 2px #00CCFF;
-    justify-content: center;
+    text-shadow: 2px 2px 5px #00CCFF;
 }
+/*--------------------------------------------------------------------------------------*/
 
 .Main {
     padding: 20px 20px;
@@ -225,6 +302,8 @@ body {
     color: #00CCFF;
 }
 
+
+/*--------------------------------------------------------------------------------------*/
 
 .Footer {
     margin-top: 20vh;

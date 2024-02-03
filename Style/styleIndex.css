@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/pacman.css');
+
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Pixelify Sans', sans-serif;
+        color: white;
+        flex-direction: column;
+        outline: none;
+
+}
+
+body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #151826;
+}
+
+.Header {
+
+        position: relative;
+        display: flex;
+        background-color: green;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        margin-bottom: 20vh;
+
+}
+
+.ImgHeader {
+        display: inline-block;
+        width: 100vw;
+        height: auto;
+        margin-top: 0;
+}
+
+.Title {
+
+        width: 90vw;
+        height: auto;
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+}
+
+.TitleNavigation {
+        margin-top: 0;
+        margin: 0 10vw 0 10vw;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+
+
+}
+
+.ButtonTitleNavigation {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        width: 40vw;
+}
+
+.ButtonTitleNavigation>button {
+        padding: 1.5vh;
+        margin: 1px 2px 1px 2px;
+        width: 7vw;
+        height: 4vh;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        border: 2px solid#00CCFF;
+        cursor: pointer;
+        transition-duration: 0.5s;
+        font-size: 0.8vw;
+        border-radius: 3px;
+
+}
+
+#Login {
+        padding: 1.5vh;
+        margin: 1px 2px 1px 2px;
+        width: 7vw;
+        height: 4vh;
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        border: 2px solid#00CCFF;
+        cursor: pointer;
+        transition-duration: 0.5s;
+        font-size: 0.8vw;
+        border-radius: 3px;
+        color: white;
+}
+
+
+.ButtonTitleNavigation>button:hover {
+        box-shadow: 0px 0px 5px 2px #00CCFF;
+        color: #00CCFF;
+}
+
+#Login:hover {
+        box-shadow: 0px 0px 5px 2px #00CCFF;
+        color: #00CCFF;
+}
+
+.TitleLogo {
+        margin: 3vw 25vw 0 25vw;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+}
+
+.TitleLogo>img {
+        width: 12vw;
+}
+
+.TitleLogo>h1 {
+        font-size: 4.5vw;
+        text-shadow: 2px 2px 5px #00CCFF;
+}
+
+
+/*--------------------------------------------------------------------------------------*/
