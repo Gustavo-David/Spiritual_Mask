@@ -4,8 +4,9 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Spiritual Mask</title>
+        <title>login</title>
         <link rel="stylesheet" href="Style\styleCardLogin.css">
+        <script src="JavaScript\LoginScript.js" defer></script>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
                                         <button id="Update" onclick="location.href='CardLogin.html'"> Update </button>
                                 </div>
 
-                                <button id="Login" onclick="location.href='CardLogin.html'"> Login</button>
+                                <button id="Login" onclick="cardLogin.html"; return false> Login</button>
                         </div>
                         <div class="TitleLogo">
                                 <img src="Image\TitleImage.png">
@@ -45,10 +46,10 @@
 
                 <div class="TextField">
                         <div class="TextLogin">
-                                <input type="text" placeholder="Username">
+                                <input id="Username" type="text" placeholder="Username" >
                         </div>
                         <div class="PasswordLogin">
-                                <input type="password" placeholder="Password">
+                                <input id="Password" type="password" placeholder="Password" >
                         </div>
                 </div>
 
@@ -65,7 +66,7 @@
 
                 </div>
 
-                <button class="ButtonLogin" onclick="location.href='Index.html'">LOGIN</button>
+                <button class="ButtonLogin" type="submit" onclick = "validationLogin(); return false">LOGIN</button>
 
         </main>
 
