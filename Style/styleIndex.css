@@ -20,6 +20,7 @@ body {
         background: #151826;
 }
 
+/*--------------------------------------------------------------------------------------*/
 .Header {
 
         position: relative;
@@ -59,6 +60,8 @@ body {
 }
 
 .ButtonTitleNavigation a {
+        
+        font-size: 1.5vw;
         cursor: pointer;
         text-decoration: none;
         margin-right: 2vw;
@@ -84,7 +87,7 @@ body {
 
 
 .TitleNavigation > a{ /* # login*/
-        
+        font-size: 1.5vw;
         cursor: pointer;
         text-decoration: none;
         margin-right: 1vw;
@@ -128,6 +131,106 @@ body {
         font-size: 4.5vw;
         text-shadow: 2px 2px 5px #00CCFF;
 }
+
+
+/*--------------------------------------------------------------------------------------*/
+
+
+
+.Main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:2vw 100vw 10vw 100vw;
+
+
+}
+
+.InfoProject{
+        display: flex;
+        width: 70vw;
+        height: auto;
+        margin-bottom: 10%;
+        align-items: center;
+
+        font-size: 1.5vw;
+}
+.InfoProject > p{
+        padding: 2%;
+        margin: 5% 0;
+}
+
+.Description{
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin: 0 10% 0 10%;
+        padding: 10px;
+
+}
+.Description > div{
+       
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: row;
+        margin-bottom: 5% ;
+}
+
+.Description div > p{
+        padding: 2%;
+        font-size: 1.5vw;
+}
+.Description div >img{
+        width: 30%;
+        border-radius: 4px;
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+
+.Footer {
+        margin-top: 20vh;
+        position: relative;
+        display: flex;
+        background-color: green;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        margin-bottom: 0;
+    }
+    
+    .Rodape {
+        
+        flex-direction: column;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+    
+        display: flex;
+    }
+    
+    .ImgFooter {
+        display: inline-block;
+        width: 100vw;
+        height: auto;
+        margin-top: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*--------------------------------------------------------------------------------------*/
