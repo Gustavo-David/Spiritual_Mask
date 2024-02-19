@@ -135,94 +135,27 @@ body {
 
 /*--------------------------------------------------------------------------------------*/
 
-
-
 .Main{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin:2vw 100vw 10vw 100vw;
-
-
-}
-
-.InfoProject{
-        display: flex;
-        width: 70vw;
+        border:3px solid red ;
+        position:relative;
+        width: 100vw;
         height: auto;
-        margin-bottom: 10%;
         align-items: center;
-
-        font-size: 1.5vw;
-}
-.InfoProject > p{
-        padding: 2%;
-        margin: 5% 0;
-}
-
-.Description{
+        justify-content: center;
         display: flex;
-        justify-content: start;
-        align-items: start;
-        margin: 0 10% 0 10%;
-        padding: 10px;
-
 }
-.Description > div{
-       
-        display: flex;
-        justify-content: start;
-        align-items: start;
-        flex-direction: row;
-        margin-bottom: 5% ;
-}
-
-.Description div > p{
-        padding: 2%;
-        font-size: 1.5vw;
-}
-.Description div >img{
-        width: 30%;
-        border-radius: 4px;
+.Main >img{
+        border: 3px solid green;
+        width: auto;
+        height: 100vh;
 }
 
 
 /*--------------------------------------------------------------------------------------*/
-
-.Footer {
-        margin-top: 20vh;
-        position: relative;
-        display: flex;
-        background-color: green;
-        justify-content: center;
-        align-items: center;
+.Footer > img {
+        margin-top:10% ;
+        margin-bottom: 0;
         width: 100vw;
         height: auto;
-        margin-bottom: 0;
-    }
-    
- 
-    
-    .ImgFooter {
-        display: inline-block;
-        width: 100vw;
-        height: auto;
-        margin-bottom: 0;
-    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*--------------------------------------------------------------------------------------*/
