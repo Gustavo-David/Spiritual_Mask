@@ -132,26 +132,42 @@ body {
         text-shadow: 2px 2px 5px #00CCFF;
 }
 
-
 /*--------------------------------------------------------------------------------------*/
 
 .Main{
-        position:relative;
-        width: 100vw;
-        height: auto;
-        align-items: center;
-        justify-content: center;
+      
         display: flex;
+        justify-content: start;
+        align-items: start;
+        margin: 0 20% 0 20%;
+        padding: 10px;
+
 }
-.Main >img{
-        width: 100vw;
-        height: auto;
-        position: relative;
-        padding: 0;
+
+.Main > div{
+       
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-direction: row;
+        margin-bottom: 10% ;
 }
 
+.Main div > p{
+        padding: 0% 2% 0% 2%;
+        font-size: 1.5vw;
+}
 
+.Main div >img{
+        width: 30%;
+        border: 2px solid#00CCFF;
+        box-shadow: 0px 5px 15px #00CCFF;
+        border-radius: 4px;
+}
 
+.Main p > strong{
+        text-shadow: 2px 2px 5px #00CCFF;
+}
 /*--------------------------------------------------------------------------------------*/
 .Footer > img {
         margin-top:10% ;
@@ -159,4 +175,5 @@ body {
         width: 100vw;
         height: auto;
 }
+
 
