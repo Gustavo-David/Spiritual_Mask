@@ -134,59 +134,10 @@ body {
 
 /*--------------------------------------------------------------------------------------*/
 
-.Main{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin:2vw 100vw 10vw 100vw;
 
 
-}
 
-.InfoProject{
-        display: flex;
-        width: 70vw;
-        height: auto;
-        margin-bottom: 10%;
-        align-items: center;
-        font-size: 1.5vw;
-}
-.InfoProject > p{
-        width: 55vw;
-        margin: 5% 0;
-}
 
-.Description{
-        display: flex;
-        justify-content: start;
-        align-items: start;
-        margin: 0 10% 0 10%;
-        padding: 10px;
-
-}
-.Description > div{
-       
-        display: flex;
-        justify-content: start;
-        align-items: start;
-        flex-direction: row;
-        margin-bottom: 5% ;
-}
-
-.Description div > p{
-        padding: 2%;
-        font-size: 1.5vw;
-}
-.Description div >img{
-        width: 30%;
-        border-radius: 4px;
-        border: 2px solid#00CCFF;
-        box-shadow: 0px 5px 15px #00CCFF;
-}
-.Main p > strong{
-        text-shadow: 2px 2px 5px #00CCFF;
-}
 
 /*--------------------------------------------------------------------------------------*/
 
